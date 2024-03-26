@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+header {
+    background-color: rgb(84, 80, 80);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.icon {
+    width: 100px;
+}
+
+.home {
+    padding: 50px 50px;
+}
+
+.center {
+    
+    margin: 0 auto;
+    
+}
+
+.form-center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 50px 50px;
+}
+
+.label {
+    font-size: 24px;
+    
+}
+
+.input {
+    outline: none;
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+    
+}
+
+.submit {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(99, 99, 238);
+    color: white;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.submit:hover {
+    background-color: rgb(234, 0, 255);
+}
+
+.select {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    width: 200px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  tr:hover {
+    background-color: #ccc;
+  }
+
+  .table {
+    margin: 0 auto;
+  }
+
+  .button-alterar {
+    color: white;
+    border: 0px;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .button-alterar:hover {
+    background-color: rgb(184, 120, 0);
+  }
+
+  .button-remover {
+    color: white;
+    border: 0px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .button-remover:hover {
+    background-color: rgb(143, 0, 0);
+  }
+
+  .perfil {
+    width: 100px;
+  }
