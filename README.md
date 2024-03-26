@@ -29,10 +29,10 @@ Este projeto consiste em uma aplicação web desenvolvida em PHP seguindo o padr
      - Nome do perfil no GitHub (para referência da imagem do perfil)
      - Código do cargo
 
-3. **Editar Desenvolvedor:**
+2. **Editar Desenvolvedor:**
    - Permite editar os dados de um desenvolvedor existente no sistema.
 
-4. **Listar Desenvolvedores:**
+3. **Listar Desenvolvedores:**
 
 ![image](https://github.com/giansb/cadastro-dev/assets/107221898/39b3c56d-dbd8-40ce-8a0d-2e9f32002ca7)
 
@@ -44,7 +44,7 @@ Este projeto consiste em uma aplicação web desenvolvida em PHP seguindo o padr
      - Foto do perfil (referenciada através de um link)
      - Cargo
 
-6. **Deletar Desenvolvedor:**
+4. **Deletar Desenvolvedor:**
    - Permite excluir um desenvolvedor do sistema.
 
 ## Estrutura do Banco de Dados
